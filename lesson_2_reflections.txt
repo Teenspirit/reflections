@@ -7,3 +7,8 @@ How is the staging area different from the working directory and the repository?
 	Staging area is where the user puts files that he/she wants to commit to the repository.
 	Files from the working directory are all local files. This is valuable because the user has
 	the flexibility to choose which files to commit		
+
+How can you use the staging area to make sure you have one commit per logical change?	
+	
+	We can commit one logical change at a time by only adding the single file with the logical
+	change to the Staging Area by using the "git add" command on said single file
